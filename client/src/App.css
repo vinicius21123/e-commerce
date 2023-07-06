@@ -1,0 +1,51 @@
+body{
+    background-color: white;
+    color: white;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    
+}
+.bar{
+  color: black;
+  width: 30%;
+  background-color:rgb(255, 45, 45);
+  position: absolute;
+left: 50%;
+transform: translateX(-50%);
+overflow: hidden;
+display: none;
+justify-content: center;
+align-items: center;
+gap: 1rem;
+}
+
+.bar p{
+  padding-left: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.bar button{
+  width: 8%;
+  
+border: none;
+cursor: pointer;
+}
+.notificationClose{
+  margin-left: auto;
+padding: .5rem;
+display: flex;
+cursor: pointer;
+}
+
+button{
+  background-color: rgb(171, 0, 0);
+  color: white;
+  text-align: center;
+  border: black,5px;
+  border-radius: 15px;
+  font-size: 1.3rem;
+}

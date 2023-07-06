@@ -1,0 +1,16 @@
+.IndividualProduct img{
+    width: 300px;
+    
+ }
+ .IndividualProduct{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 40px;
+ }
+.ContainerProducts{
+    display: flex;
+    justify-content: space-around;
+    color: #999999;
+}
